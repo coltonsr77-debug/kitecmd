@@ -103,7 +103,7 @@ def install_kitecmd_IR():
     """Install the kitecmd-IR package from PyPI."""
     print("Installing kitecmd-IR...")
     try:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "kitecmd-IR=0.2"])
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "kitecmd-IR=0.1"])
         print("\nSuccessfully installed kitecmd-IR.")
     except subprocess.CalledProcessError:
         print("Failed to install kitecmd-IR. Try running as administrator or check your internet connection.")
