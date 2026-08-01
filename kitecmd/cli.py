@@ -96,7 +96,7 @@ def check_for_update(package_name):
             except subprocess.CalledProcessError:
                 print("Failed to update kitecmd. Try running as administrator or with elevated permissions.")
         else:
-            print("Update cancelled.")
+            print("Update cancelled by user.")
 
 
 def install_kitecmd_IR():
